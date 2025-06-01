@@ -1,0 +1,77 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: black;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('fitzroy.png') center/cover no-repeat;
+    filter: brightness(0.15);
+    z-index: -1;
+}
+
+.logo {
+    width: 100px;
+    margin: 20px auto;
+    display: block;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.member-list-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 3px solid gold;
+    border-radius: 10px;
+    background-color: black;
+    color: gold;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.member-list-button:hover {
+    background-color: gold;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.member-card {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid gold;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.member-image {
+    width: 200px;
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: gold;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
